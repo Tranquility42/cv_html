@@ -1,0 +1,63 @@
+*, ::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    padding: 3%;
+}
+.accroche{
+    font-style: italic;
+}
+.colonne-1{
+    width: 60%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center ;
+}
+.colonne-2 {
+    padding: 2%;
+    width: 40%;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.colonne-2 .Compétences .bar-skill {
+    background: gray;
+    height: 5px;
+    position: relative;
+    margin: 20px 0;
+}
+.colonne-2 .Compétences .bar-skill .bar-skill-progress-cap-adaptation{
+    background: blue;
+    width: 80%;
+    height: 5px;
+}
+.colonne-2 .Compétences .bar-skill .bar-skill-progress-cap-org {
+    background: blue;
+    width: 89%;
+    height: 5px;
+}
+.colonne-2 .atouts .bar-skill {
+    background: gray;
+    height: 5px;
+    position: relative;
+    margin: 20px 0;
+}
+.colonne-2 .atouts .bar-skill .bar-skill-progress-atouts-rigou {
+    background: blue;
+    width: 80%;
+    height: 5px;
+}
+.colonne-2 .atouts .bar-skill .bar-skill-progress-atouts-auto {
+    background: blue;
+    width: 50%;
+    height: 5px;
+}
+.colonne-2 .atouts .bar-skill .bar-skill-progress-atouts-resp {
+    background: blue;
+    width: 60%;
+    height: 5px;
+}
+
